@@ -1,28 +1,26 @@
-const add = (a, b) => a + b;
+const add = function() {
+	
+};
 
-const subtract = (a, b) => a - b;
+const subtract = function() {
+	
+};
 
-const sum = (nums) => (nums).reduce((sum, num) => sum + num, 0);
-console.log(sum([1, 2, 3]));
-// const multiply = (a, b) => a * b;
-const multiply = nums => nums.reduce((product, num) => product * num);
-console.log(multiply([1, 2, 3, 4]));
-const power = (a, b) => a ** b;
+const sum = function() {
+	
+};
 
-const factorial = num => {
-  let result = 1;
-  if (num === 0) return result;
-  if (num === 1) return result;
+const multiply = function() {
 
-  while(num > 1) {
-    result *= num;
-    num--;
-  }
+};
 
-  return result;
-}
+const power = function() {
+	
+};
 
-console.log(factorial(4));
+const factorial = function() {
+	
+};
 
 // Do not edit below this line
 module.exports = {
